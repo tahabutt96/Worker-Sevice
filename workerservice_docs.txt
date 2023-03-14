@@ -1,0 +1,4 @@
+1. Create Service
+2. Add Extention Extensions.Hosting.WindowsServices
+3. sc create tb.workerservice binpath="D:\SourceCodes\testing_codes\tb_workerservice\tb_workerservice\bin\Release\net6.0\publish\tb_workerservice.exe" start="demand" displayname="Worker Service Example"
+4. run services.msc and then run the service 
